@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.buttons{
+  display: block;
+  margin:5px;
+  padding:5px;
+  width:100px;
+  height:100px;
+  background-color: aqua;
+
+}
+.button:hover{
+  
+  background: #eee;
+
+}
+.App > div{
+  display:flex;
+
+}
+.btn{
+  width:100px;
+  height:50px;
+  
+}
+.image{
+  width:100px;
+  height:100px;
+}
+.header-div{
+  display:flex;
+  justify-content: space-between;
+
+}
+.listItems{
+  display:flex;
+  gap:5px;
+  list-style:none;
+  justify-content: space-between;
+}
+.card-list{
+  display:flex;
+  justify-content: space-around;
+}
+.card{
+  width:175px;
+  font-size:12px;
+  position:relative;
+}
+.card-image{
+  width:100%;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.icon-image{
+  width:10px;
+  height:10px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-stats{
+  width: 150px;
+  height:200px;
 }
+.class-badge{
+  position:absolute;
+  top:6px;
+  left:6px;
+  background-color: #eee;
+  padding:5px 7px;
+  border-radius:2px;
+  font-weight:bold;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
